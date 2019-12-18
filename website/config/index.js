@@ -48,11 +48,11 @@ export default {
                 {
                     label: 'FormGenerator',
                     name: '/doc/FormGenerator'
-                },
-                {
-                    label: 'FieldGenerator',
-                    name: '/doc/FieldGenerator'
                 }
+                // {
+                //     label: 'FieldGenerator',
+                //     name: '/doc/FieldGenerator'
+                // }
                 // {
                 //     label: 'Input',
                 //     name: '/doc/Input'

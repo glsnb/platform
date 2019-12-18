@@ -1,31 +1,13 @@
 <template>
     <div class="page-home">
-        <app-header />
+        <!-- <app-header /> -->
         <div class="page-home-container">
             <div class="page-home-container-content">
-                <div class="page-home-container-content-title">Form Generator</div>
+                <div class="page-home-container-content-title">platform</div>
                 <!-- <div class="page-home-container-content-slogon">同样的场景，我们只写一次</div> -->
-                <div class="page-home-container-content-desc">
-                    <p>
-                        <!-- JSON Drived Configurable Form Generator based on iView -->
-                        基于iView的JSON驱动的可配置表单生成工具
-                    </p>
-                </div>
                 <div class="page-home-container-content-actions">
                     <Button type="primary" size="large" shape="circle">
                         <router-link :style="{color: '#f8f8f8'}" to="/doc">快速开始</router-link>
-                    </Button>
-                    <Button type="primary" size="large" shape="circle">
-                        <router-link :style="{color: '#f8f8f8'}" to="/group-form">预览</router-link>
-                    </Button>
-                    <Button
-                        to="https://json-drived-configurable-platform.github.io/form-generator-iview"
-                        icon="logo-github"
-                        target="_blank"
-                        size="large"
-                        shape="circle"
-                    >
-                        GitHub
                     </Button>
                     <!-- <Button type="primary">模板</Button> -->
                 </div>
@@ -51,7 +33,8 @@ export default {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: url('./assets/cool-background.svg') no-repeat;
+    // background: url('./assets/cool-background.svg') no-repeat;
+    background: #fff;
     background-size: cover;
     font-family: Avenir,-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif;
 
@@ -79,7 +62,7 @@ export default {
         .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover {
             background-color: blue;
             a {
-                color: rgb(65, 140, 255);
+                color: #fff;
             }
         }
 

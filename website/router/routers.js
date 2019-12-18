@@ -57,26 +57,26 @@ export default [
         redirect: '/doc/FormGenerator',
         component: Main,
         children: [
-            {
-                path: '/intro',
-                name: 'intro',
-                component: intro
-            },
-            {
-                path: '/practice',
-                name: 'practice',
-                component: practice
-            },
+            // {
+            //     path: '/intro',
+            //     name: 'intro',
+            //     component: intro
+            // },
+            // {
+            //     path: '/practice',
+            //     name: 'practice',
+            //     component: practice
+            // },
             {
                 path: '/doc/FormGenerator',
                 name: 'doc-FormGenerator',
                 component: FormGenerator
-            },
-            {
-                path: '/doc/FieldGenerator',
-                name: 'doc-FieldGenerator',
-                component: FieldGenerator
             }
+            // {
+            //     path: '/doc/FieldGenerator',
+            //     name: 'doc-FieldGenerator',
+            //     component: FieldGenerator
+            // }
             // {
             //     path: '/doc/Input',
             //     name: 'doc-Input',
