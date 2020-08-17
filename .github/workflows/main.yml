@@ -29,11 +29,11 @@ jobs:
                   npm run build-website
 
             # The project is then uploaded as an artifact named 'site'.
-            - name: Upload Artifacts
-              uses: actions/upload-artifact@v1
-              with:
-                  name: site
-                  path: gh-pages
+            # - name: Upload Artifacts
+            #   uses: actions/upload-artifact@v1
+            #   with:
+            #       name: site
+            #       path: gh-pages
 
     # deploy:
     #     needs: [build]
